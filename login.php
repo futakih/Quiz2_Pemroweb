@@ -11,13 +11,6 @@
 			header("location:index.php");
 		}
 	}
-	// die($_COOKIE['login'] == "false");
-	// die($_SESSION['login'] == true);
-	// if($_SESSION['login'] == true){
-	// 	header("location:index.php");
-	// } else {
-	// 	header("location:login.php");
-	// }
 
 	if(isset($_GET['pesan'])){
 		if($_GET['pesan'] == "gagal"){
